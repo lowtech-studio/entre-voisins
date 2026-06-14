@@ -1,0 +1,187 @@
+.forum aside {
+    background-color: rgb(246 243 238);
+}
+
+.forum main {
+    background-color: rgb(252 249 244);
+    padding-top: 0.5rem;
+}
+
+.forum main header {
+    border-color: rgb(207 196 189 / 0.05);
+    border-bottom-width: 1px;
+    border-style: solid;
+    display: flex;
+}
+
+.forum main header span {
+    line-height: 2.5rem;
+    padding-left: 2rem;
+}
+
+.forum .posts {
+    overflow-y: auto;
+}
+
+.forum .post {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(2rem * var(--tw-space-y-reverse));
+  transition-property: color, background-color, border-color, fill, stroke, -webkit-text-decoration-color;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  display: flex;
+  margin-left: -1.5rem;
+  margin-right: -1.5rem;
+  box-sizing: border-box;
+  border-width: 0;
+  border-style: solid;
+  border-color: #e5e7eb;
+}
+
+.forum .post figure {
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.forum .post .post-metadata-author {
+    font-weight: bold;
+}
+
+.forum .post .post-metadata-date {
+    margin-left: 1rem;
+    font-size: 0.8rem;
+}
+
+.forum .post-box {
+  padding-bottom: 1.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+*, ::after, ::before {
+  box-sizing: border-box;
+  border-width: 0;
+  border-style: solid;
+  border-color: #e5e7eb;
+}
+.transition-shadow {
+  transition-property: box-shadow;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+.p-2 {
+  padding: 0.5rem;
+}
+.bg-surface-container {
+  --tw-bg-opacity: 1;
+  background-color: rgb(240 237 232 / var(--tw-bg-opacity, 1));
+}
+.rounded-2xl {
+  border-radius: 1rem;
+}
+.items-center {
+  align-items: center;
+}
+.flex {
+  display: flex;
+}
+*, ::after, ::before {
+  box-sizing: border-box;
+  border-width: 0;
+  border-style: solid;
+  border-color: #e5e7eb;
+}
+.transition-colors {
+  transition-property: color, background-color, border-color, fill, stroke, -webkit-text-decoration-color;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+.text-on-surface-variant {
+  --tw-text-opacity: 1;
+  color: rgb(77 69 64 / var(--tw-text-opacity, 1));
+}
+.p-2 {
+  padding: 0.5rem;
+}
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+*, ::after, ::before {
+  box-sizing: border-box;
+  border-width: 0;
+  border-style: solid;
+  border-color: #e5e7eb;
+}
+
+.space-x-3 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(0.75rem * var(--tw-space-x-reverse));
+  margin-left: calc(0.75rem * calc(1 - var(--tw-space-x-reverse)));
+}
+.text-on-surface {
+  --tw-text-opacity: 1;
+  color: rgb(28 28 25 / var(--tw-text-opacity, 1));
+}
+.text-message-body {
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 400;
+}
+.font-message-body {
+  font-family: Geist;
+}
+.bg-transparent {
+  background-color: transparent;
+}
+.border-none {
+  border-style: none;
+}
+.flex-1 {
+  flex: 1 1 0%;
+}
+[type="text"], input:where(:not([type])), [type="email"], [type="url"], [type="password"], [type="number"], [type="date"], [type="datetime-local"], [type="month"], [type="search"], [type="tel"], [type="time"], [type="week"], [multiple], textarea, select {
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #fff;
+  border-color: #6b7280;
+  border-width: 1px;
+  border-radius: 0px;
+  padding-top: 0.5rem;
+  padding-right: 0.75rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  --tw-shadow: 0 0 #0000;
+}
+button, input, optgroup, select, textarea {
+  font-family: inherit;
+  font-feature-settings: inherit;
+  font-variation-settings: inherit;
+  font-size: 100%;
+  font-weight: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+  color: inherit;
+  margin: 0;
+    margin-right: 0px;
+    margin-left: 0px;
+  padding: 0;
+}
+*, ::after, ::before {
+  box-sizing: border-box;
+  border-width: 0;
+  border-style: solid;
+  border-color: #e5e7eb;
+}

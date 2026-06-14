@@ -1,0 +1,12 @@
+.intro {
+  text-align:center;
+}
+
+.signup-or-login button:first-child {
+  margin-right: 15px;
+}
+
+.share-with-neighbors {
+  margin-top: 15px;
+}
+
